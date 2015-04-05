@@ -1,6 +1,6 @@
 # S3EventQueue Zend Framework 2 Module
 
-Version 0.4 created by Marcus Welz.
+Version 0.1 created by Marcus Welz.
 
 ## Purpose
 
