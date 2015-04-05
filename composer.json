@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-0": {
-      "SlmQueue": "src/"
+      "S3EventQueue": "src/"
     },
     "classmap": [
       "./Module.php"
