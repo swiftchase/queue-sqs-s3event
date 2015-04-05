@@ -1,0 +1,33 @@
+{
+  "name": "swiftchase/queue-sqs-s3event",
+  "description": "Zend Framework 2 module for Amazon S3 Event Notifications queue manager for SlmQueue",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "keywords": [
+    "zf2",
+    "queue",
+    "job",
+    "sqs",
+    "aws",
+    "queue"
+  ],
+  "homepage": "https://github.com/swiftchase/queue-sqs-s3event",
+  "authors": [
+    {
+      "name": "Marcus Welz",
+      "email": "marcus@swiftchase.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "slm/queue-sqs": "~0.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "SlmQueue": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
